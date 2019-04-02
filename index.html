@@ -64,9 +64,15 @@
 
   function checkSlide(e) {
 
-    sliderImages.forEach( slideImages => {
-      const slideInAt = (window.scrollY + window.innerHeight);
-      console.log(slideInAt);
+    sliderImages.forEach( sliderImage => {
+
+      // Halfway through image
+      const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+
+      // Bottom of image
+      const imageBottom = sliderImage.offsetTop + sliderImage.height;
+
+      console.log(slideInAt, imageBottom);
     });
   }
 
