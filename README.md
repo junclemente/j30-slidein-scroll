@@ -12,3 +12,5 @@ This project is a practice in writing vanilla JavaScript and to learn about othe
 
 
 #### Project takeaways
+* `debounce function` - A function that helps improve site performance by limiting how often a function is called such as on a `scroll` event. [https://davidwalsh.name/javascript-debounce-function](https://davidwalsh.name/javascript-debounce-function)
+* `scrollY | innerHeight | offsetTop ` - Used to determine location of the image in the scroll window
